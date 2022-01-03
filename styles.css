@@ -1,0 +1,185 @@
+
+html {
+    font-size: 62.5%;
+}
+body {
+    background: linear-gradient(207.8deg, #f8fafa
+    1%, #f0f1f1 100%);
+}
+/* Header */
+#header {
+    background: #fcbcfc;
+}
+
+#header img {
+    width: 10rem;
+    margin-left: 3rem;
+}
+
+.overlay {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 5rem;
+    color:rgb(12, 11, 11);
+}
+
+.parrafo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color:rgb(0, 0, 0);
+}
+
+.turno {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    color:rgb(61, 0, 122);
+}
+
+.boton-turno {
+    font-family: 'Fredoka One', cursive;
+    border-radius:20px;
+    background-color: #fcbcfc;
+}
+#main .carousel-item{
+    margin-left: auto;
+    margin-right: auto;
+}
+#main .carousel-inner img {
+    max-width: 70vh; /* Indicamos que el ancho va ocupar el 70% del ancho */
+    max-height: 70vh;
+    object-fit: cover; /* Hacemos que la imagen no se vea estirada */
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.card {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card-text {
+    font-size: 2rem;
+    text-align: center;
+} 
+
+.badges a {
+    font-size: 1.2rem;
+    font-family:  'Roboto', sans-serif;
+}
+
+div .form-control {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border-color: #fcbcfc;
+}
+
+div .form-group {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border-color: #fcbcfc;
+}
+
+#footer {
+    background: linear-gradient(90deg, #fcbcfc, #fcbcfc 25%, #fcbcfc);
+}
+
+footer a {
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+
+#carousel {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(12, 11, 11)
+}
+#text-frase {
+    color: rgb(165, 78, 212);
+    font-family: 'Pinyon Script', cursive;
+    font-size: 45px;
+    
+}
+
+div .btn {
+    background:#fcbcfc ;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+div .btn:hover {
+    background:rgb(165, 78, 212);
+}
+
+/* Efecto del boton */
+:root {
+    --bg: #1a1e24;
+    --color: rgb(199, 163, 219);
+    --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+    padding: 1.5rem 0;
+    filter: url('#goo');
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    background: var(--color);
+    color: var(--bg);
+    font-weight: bold;
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 8.23em;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 1.5rem;
+}
+
+.button:before,
+.button:after {
+    width: 4.4em;
+    height: 2.95em;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: var(--color);
+    border-radius: 50%;
+    transition: transform 1s ease;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.button:before {
+    top: -25%;
+    left: 20%;
+}
+
+.button:after {
+    bottom: -25%;
+    right: 20%;
+}
+
+.button:hover:before,
+.button:hover:after {
+    transform: none;
+}
